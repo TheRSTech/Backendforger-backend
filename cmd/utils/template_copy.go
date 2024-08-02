@@ -18,7 +18,7 @@ var s3Client *s3.S3
 func init() {
 	sess := session.Must(session.NewSession(&aws.Config{
 		Region:      aws.String("ap-south-1"), // Update with your region
-		Credentials: credentials.NewStaticCredentials("AKIATEWT4JZLG5RVPFB7", "mWC2/ATt22pEbBgB/hD8f2qTB0/QDqNsky5JdxMs", ""),
+		Credentials: credentials.NewStaticCredentials("", "", ""),
 	}))
 	s3Client = s3.New(sess)
 }
