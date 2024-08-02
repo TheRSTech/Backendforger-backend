@@ -3,6 +3,7 @@ package utils
 import (
 	"fmt"
 	"io"
+	"log"
 	"os"
 	"strings"
 
@@ -10,15 +11,23 @@ import (
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3"
+	"github.com/joho/godotenv"
 )
 
 // Initialize S3 client
 var s3Client *s3.S3
 
 func init() {
+	err := godotenv.Load()
+	if err != nil {
+		log.Fatalf("Error loading .env file")
+	}
+	aws_access_id := os.Getenv("AWS_ACCESS_ID")
+	aws_secret_key := os.Getenv("AWS_SECRET_KEY")
+
 	sess := session.Must(session.NewSession(&aws.Config{
 		Region:      aws.String("ap-south-1"), // Update with your region
-		Credentials: credentials.NewStaticCredentials("", "", ""),
+		Credentials: credentials.NewStaticCredentials(aws_access_id, aws_secret_key, ""),
 	}))
 	s3Client = s3.New(sess)
 }
