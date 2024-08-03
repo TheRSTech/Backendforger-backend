@@ -27,25 +27,25 @@
 <details>
   <summary>CLI Tool:</summary>
   <ul>
-    <li><a href="#">Go</a></li>
-    <li><a href="#">Cobra</a></li>
+    <li><a href="https://go.dev/">Go</a></li>
+    <li><a href="https://github.com/spf13/cobra">Cobra</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Web Frontend: </summary>
   <ul>
-    <li><a href="#">Next.js</a></li>
-    <li><a href="#">TypeScript</a></li>
-    <li><a href="#">Tailwind CSS</a></li>
-    <li><a href="#">DaisyUI</a></li>
+    <li><a href="https://nextjs.org/">Next.js</a></li>
+    <li><a href="https://www.typescriptlang.org/">TypeScript</a></li>
+    <li><a href="https://tailwindcss.com/">Tailwind CSS</a></li>
+    <li><a href="https://daisyui.com/">DaisyUI</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Template Storage:</summary>
   <ul>
-    <li><a href="#">Amazon S3</a></li>
+    <li><a href="https://aws.amazon.com/s3/">Amazon S3</a></li>
   </ul>
 </details>
 
