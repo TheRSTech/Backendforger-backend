@@ -8,6 +8,7 @@
   - [Prerequisites](#prerequisites)
   - [Usage](#usage)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
@@ -121,6 +122,14 @@ go build
 - GitHub: [@githubhandle](https://github.com/Sarvesh-shinde23)
 - Twitter: [@twitterhandle](https://x.com/sarveshiya96596)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/saveshzone/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features<a name="future-features"></a>
+
+<p>The next steps for Backend Forger include adding support for more frameworks, improving the customization options for project templates, and enhancing documentation to guide new users. We also plan to integrate more features that streamline the development process, such as automated configuration setups, continuous integration support, and more. Our goal is to make Backend Forger an indispensable tool for backend developers around the world.</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
