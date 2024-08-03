@@ -3,11 +3,9 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
   - [Usage](#usage)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -19,7 +17,6 @@
 # 📖 [Backendforger-backend] <a name="about-project"></a>
 
 > **Backend Forger** automates the scaffolding of backend projects by setting up the essential file and folder structure required for development. It supports multiple frameworks, including Flask, FastAPI, Node.js (Express with TypeScript), and several Go frameworks like HTTP, Gin, Mux, Fiber, and Echo. The tool also handles the installation of necessary packages, providing a ready-to-use boilerplate that developers can immediately build upon.
-
 
 
 ## 🛠 Built With <a name="built-with"></a>
