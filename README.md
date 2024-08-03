@@ -8,7 +8,6 @@
   - [Prerequisites](#prerequisites)
   - [Usage](#usage)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
